@@ -1,0 +1,130 @@
+/* https://www.w3schools.com/html/html_table_borders.asp */
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #666666;
+	/*
+	table-layout: fixed;
+    width: 450px;
+	*/
+}
+
+
+/* AliceBlue lemonchiffon #888888 777777*/
+.tableCss{
+	background-color: AliceBlue;
+	border: 1px solid #888888; 
+	border-collapse: collapse;
+	/*
+  	border: 1px solid black;
+  	border-collapse: collapse;
+	*/
+}
+
+.tableImageCss{
+	width: 100%;
+	padding: 0px;
+	border-spacing: 0px;
+
+	/*
+	border: 1px solid white;
+	border-collapse: collapse;
+	*/
+}
+
+
+.listCss{
+	font-size: 16px;
+}
+
+.headRedCss{
+	font-size: 16px;
+	color: red;
+	font-weight: bold;
+}
+
+.headBlueCss{
+	font-size: 12px;
+	color: blue;
+	font-weight: bold;
+}
+
+.imageCss{ /*main image on left*/
+	width: 256px;
+	height: 198px;
+	cursor: pointer;
+	border:1px solid gray;
+}
+
+.thumbCss{
+	width: 128px;
+	height: 96px;
+	cursor: pointer;
+	border:1px solid gray;
+}
+
+.thumbTrCss{ /*not in use*/
+	font-size: 9px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.subNoteCss{
+	font-size: 12px;
+	color: red;
+	text-align: center;
+}
+.subNoteCssOrg{
+	font-size: 11px;
+	color: red;
+	/*text-align: center;*/
+}
+
+.subNoteCssBlack{
+	font-size: 11px;
+	/*text-align: center;*/
+}
+
+.tinyNoteCssBlack{
+	font-size: 9px;
+	/*text-align: center;*/
+}
+
+.subNoteCssFormula{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10.5px;
+	color: red;
+	/*text-align: center;*/
+}
+
+.popupCss {
+	position: absolute;
+	/*left: 10px;
+	top: 10px;*/
+	z-index: 1;
+	cursor: pointer;
+}
+
+
+.breakCss {
+	background-color: DeepSkyBlue;  /* royalblue #777777*/
+	height: 0px;
+}
+
+/* PaleTurquoise  AntiqueWhite  LightCyan PaleGreen lightgreen SpringGreen MediumSpringGreen LightPink Ivory 99FFFF 66CCFF #CCCCCC*/
+
+/* ccfdce #9ef4a6  #5ee471    */
+/* #c5e5fb #93c9ff #659eff */
+.trCss1{
+	background-color: #cceeff;  /* blue cceeff c5e5fb    */
+}
+
+.trCss2{
+	background-color: #ccfdce;  /* green */  
+}
+
+.trCss3{
+	background-color: #ffffcc;  /* yellow fcf2bd*/  
+}
+
