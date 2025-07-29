@@ -86,6 +86,12 @@ body {
 	/*text-align: center;*/
 }
 
+.subNoteCssBlue{
+	font-size: 11px;
+	color: blue;
+	/*text-align: center;*/
+}
+
 .tinyNoteCssBlack{
 	font-size: 9px;
 	/*text-align: center;*/
